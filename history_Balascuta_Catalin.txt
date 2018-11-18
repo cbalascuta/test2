@@ -1,0 +1,89 @@
+yum install httpd
+cd /var/www/html/
+nano test.txt
+service httpd start
+ifconfig
+shutdown -h now
+exit
+yum install git
+cd test2
+mkdir test2
+cd test2
+git clone https://github.com/cbalascuta/test2.git
+nano myfile1.txt
+git add myfile1.txt
+ls
+cd test2
+ls
+pwd
+ls
+ls -al
+nano myfile.txt
+git add myfile.txt
+git push origin master
+git pull origin master
+cd test2
+pwd
+ls
+cd ..
+ls
+cd test2/
+ls
+ls -all
+git add .
+git commit -m'myfile.txt'
+git push origin master
+git checkout -b b1
+cd b1
+cd b1/
+test2/
+mkdir b1
+cd b1
+ls
+ls-all
+ls -all
+pwd
+nano myfile2.txt
+add myfile2.txt
+git add myfile2.txt
+git commit myfile2.txt
+git commit -m'myfile2.txt'
+git push origin master
+ls
+git push origin b1
+ls
+cd test1
+cd ..
+cd test1
+ls
+cd branch1
+cd b1
+git merge b1
+git push origin master
+ls
+git merge b1
+git push origin master
+ls
+ls -all
+pwd
+cd test2
+cd ..
+cd test2
+pwd
+git merge b1
+git push origin master
+cd b1
+git add .
+git checkout -b b1
+git b1
+git branch *b1
+git branch *branch1
+git branch *b1
+git branch 
+git commit -m'b1'
+git push origin b1
+cd ..
+git checkout master
+git merge b1
+git push origin master
+history -w ./history_Balascuta_Catalin.txt
